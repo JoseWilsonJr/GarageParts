@@ -1,0 +1,132 @@
+div.clear{
+    clear:both
+}
+footer.main{
+    background:#001f3f;
+    float:left;
+    width:100%
+}
+div.logomarca{
+    float:left
+}
+.text-modals-size {
+    font-size: 1.2em;
+}
+.logo-mini {
+    width: 40px;
+    height: 40px;
+    margin: 7px 5px 7px;
+    position: center;
+}
+.logolarge{
+    width: 150px;
+    height: 40px;
+    position: center;
+}
+.image-logo{
+    width: 270px;
+    height: 65px;
+}
+.logomarca img{
+    float:left;
+    margin:0 4px;
+    padding:10px 0;
+    max-width:200px
+}
+.image-timeline-user{
+    width: 50px;
+    height: 50px;
+}
+.image-timeline-body{
+    width: 200px;
+    height: 200px;
+}
+.image-logo-montadora-detalhe{
+    width: 100px;
+    height: 100px;
+}
+.main_auth{
+    float:right;
+    padding:22px 0
+}
+.main-user-auth{
+    float:right;
+    padding:0
+}
+.main-user-auth a.user-auth{
+    color:#fff;
+    padding:8px 0
+}
+.sign{
+    color:#fff;
+    font-size:.8em;
+    margin:0 10px
+}
+.signup{
+    background:#39cccc;
+    padding:6px 12px;
+    color:#001f3f;
+    font-size:.8em;
+    border-radius:2px
+}
+.signup:hover{
+    background:#001f3f
+}
+.efect-transition{
+    transition:all .5s ease-out 0s
+}
+.bg-plans{
+    background:url('../assets/site/img/background.png');
+    background-color: #eeeeee;
+}
+.bg-widget-image{
+    background:url('../assets/site/img/estrada.jpg');
+    background-size: 600px 150px;
+    background-position-x: 0%;
+    background-position-y: 100%; 
+}
+.afasteDireito {
+    margin: 0px 50px;
+}
+
+.box-background {
+    position: relative;
+    border-radius: 3px;
+    background: #ffffff;
+    border-top: 3px solid #d2d6de;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  }
+  .box-background.box-primary {
+    border-top-color: #3c8dbc;
+  }
+  .box-background.box-info {
+    border-top-color: #00c0ef;
+  }
+  .box-background.box-danger {
+    border-top-color: #dd4b39;
+  }
+  .box-background.box-warning {
+    border-top-color: #f39c12;
+  }
+  .box-background.box-success {
+    border-top-color: #00a65a;
+  }
+  .box-background.box-default {
+    border-top-color: #d2d6de;
+  }
+.galeria1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 50%;
+    max-width: 50%;
+}
+.galeria2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60%;
+    width: 100%;
+}

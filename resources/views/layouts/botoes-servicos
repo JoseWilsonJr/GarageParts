@@ -1,0 +1,14 @@
+            <form class="form-horizontal" action="#">
+                <div class="form-group">
+                    <div class="col-sm-3">
+                        <a class="btn btn-primary btn-block" href="{{ route('service.cadastro.mecanico.form') }}">
+                            <i class="icon fa fa-share fa-lg"></i> Atualizar Informações
+                        </a>
+                    </div>  
+                </div>  
+            </form>
+
+
+        
+
+        <input class="form-control" name="valorPorPeca" type="number" pattern="[0-9]+([,\.][0-9]+)?" min="0" step="any" value="{{old('valorPorPeca')}}" placeholder="Valor unitário" >
